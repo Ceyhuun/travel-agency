@@ -1,0 +1,93 @@
+#description {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #fff;
+}
+
+.tour-container {
+    margin: 0 auto;
+}
+
+.tour-description h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #001d38;
+    margin-bottom: 25px;
+    font-family: "Rubik",sans-serif;
+}
+
+.tour-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7a838b;
+    font-family: "Rubik",sans-serif;
+    margin-bottom: 20px;
+}
+
+.day-description h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik",sans-serif;
+    color: #001d38;
+}
+
+.border {
+    border-top: 1px solid #e4e6e8;
+    margin-top: 65px;
+    padding-bottom: 65px;
+}
+
+.join h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #001d38;
+    margin-bottom: 32px;
+    padding-left: 15px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.form-input input {
+    width: 100%;
+    background: #f4f4f4;
+    height: 50px;
+    border-radius: 5px;
+    color: #000;
+    padding-left: 15px;
+    border: none;
+}
+
+.form-input textarea {
+    height: 115px !important;
+    width: 100%;
+    background: #f4f4f4;
+    height: 50px;
+    border-radius: 5px;
+    color: #000;
+    padding-left: 15px;
+    padding-top: 15px;
+    border: none;
+}
+
+.join-btn {
+    width: 100%;
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.small-input-container {
+    display: flex;
+}

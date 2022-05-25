@@ -1,0 +1,126 @@
+#destinations {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cities-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.city {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: all ease .5s;
+}
+
+.city:hover {
+    box-shadow: 0 10px 20px rgb(0 0 0 / 5%);
+}
+
+.city:hover .city-info a h3 {
+    color: #ff4a52;
+}
+
+.city:hover .city-image p {
+    background: #ff4a52;
+}
+
+.city-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.city-image img {
+    width: 100%;
+}
+
+.city-image p {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    background: #1ec6b6;
+    padding: 8px 18px 8px 18px;
+    top: 20px;
+    left: 20px;
+    border-radius: 18px;
+    font-family: "Rubik",sans-serif;
+    transition: all ease .5s;
+}
+
+.city-info {
+    padding: 27px 20px 25px 20px;
+}
+
+
+.city-info a h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #040e27;
+    font-family: "Rubik",sans-serif;
+}
+
+.city-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a838b;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-family: "Rubik",sans-serif;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.rating-left {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.rating-left i {
+    font-size: 12px;
+    color: #fdae5c;
+}
+
+.rating-left p {
+    font-size: 14px;
+    color: #7a838b;
+    margin-left: 5px;   
+}
+
+.rating-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.rating-right i,
+.rating-right p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a838b;
+    font-family: "Rubik",sans-serif;
+}
+
+.more-btn {
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
